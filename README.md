@@ -2,7 +2,7 @@
 >is an asynchronous library that implements CQRS pattern in your Python applications
 
 ## Example Command & Query
-```
+```python
 @dataclass
 class UserCreate(Command):
     id: int
